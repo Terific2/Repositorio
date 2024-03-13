@@ -17,14 +17,14 @@ int main(){
 	
 	if(a<(b+c), b<(a+c), c<(a+b)){
 		
-		printf("E possivel formar um triangulo.");
-		if((a!=b, b!=c, c!=a)){
+		printf("E possivel formar um triangulo.\n");
+		if((a!=b && b!=c && c!=a)){
 			
 			printf("O triangulo formado e escaleno. \n");
 			
 		}else{
 			
-			if((a==b, b==c, a==c)){
+			if((a==b && b==c)){
 				
 				printf("O triangulo e equilatero. \n");
 				
