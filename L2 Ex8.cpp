@@ -15,28 +15,21 @@ int main(){
 	scanf("%f", &b);
 	scanf("%f", &c);
 	
-	if(a<(b+c), b<(a+c), c<(a+b)){
+	if(a<(b+c) && b<(a+c) && c<(a+b)){
 		
 		printf("E possivel formar um triangulo.\n");
 		if((a!=b && b!=c && c!=a)){
-			
-			printf("O triangulo formado e escaleno. \n");
-			
+		printf("O triangulo formado e escaleno. \n");	
 		}else{
-			
 			if((a==b && b==c)){
-				
-				printf("O triangulo e equilatero. \n");
-				
+			printf("O triangulo e equilatero. \n");	
 			}else{
-				
-				printf("O triangulo e isosceles. \n");
-				
+			printf("O triangulo e isosceles. \n");	
 			}
 			
 		}
-		
-		
+	}else{	
+	printf("Nao e possivel formar um triangulo. \n");	
 	}
 	
 	return 0;
